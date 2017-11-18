@@ -1,0 +1,24 @@
+#sample-animation-text {
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    animation-name: slidein;
+    animation-duration: 1s;
+}
+#sample-animation-text:hover{
+    color: lightblue;
+}
+
+
+@keyframes slidein {
+    0% {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    100% {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
